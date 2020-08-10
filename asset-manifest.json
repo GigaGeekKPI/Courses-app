@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Courses-app/static/css/main.80661ebe.chunk.css",
+    "main.js": "/Courses-app/static/js/main.4af68b9d.chunk.js",
+    "main.js.map": "/Courses-app/static/js/main.4af68b9d.chunk.js.map",
+    "runtime-main.js": "/Courses-app/static/js/runtime-main.5b93577c.js",
+    "runtime-main.js.map": "/Courses-app/static/js/runtime-main.5b93577c.js.map",
+    "static/js/2.4d1911cd.chunk.js": "/Courses-app/static/js/2.4d1911cd.chunk.js",
+    "static/js/2.4d1911cd.chunk.js.map": "/Courses-app/static/js/2.4d1911cd.chunk.js.map",
+    "index.html": "/Courses-app/index.html",
+    "precache-manifest.e0b3903bb182f5e6853fce46f193294c.js": "/Courses-app/precache-manifest.e0b3903bb182f5e6853fce46f193294c.js",
+    "service-worker.js": "/Courses-app/service-worker.js",
+    "static/css/main.80661ebe.chunk.css.map": "/Courses-app/static/css/main.80661ebe.chunk.css.map",
+    "static/js/2.4d1911cd.chunk.js.LICENSE.txt": "/Courses-app/static/js/2.4d1911cd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Courses-app/static/media/search.19142cc5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b93577c.js",
+    "static/js/2.4d1911cd.chunk.js",
+    "static/css/main.80661ebe.chunk.css",
+    "static/js/main.4af68b9d.chunk.js"
+  ]
+}
