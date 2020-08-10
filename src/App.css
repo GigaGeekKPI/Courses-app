@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.logo {
+    background-image: url('./logo.jpg');
+    height: 40px;
+    background-repeat: no-repeat;
+    width: 120px;
+}
+
+header {
+    padding: 10px 0;
+    background-color: white;
+}
+
+.header-wrapper, main, .search-section {
+    width: 80%;
+    margin: auto;
+}
+
+.search-section {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input {
+    width: 75%;
+    padding: 20px 60px;
+    outline: none;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 8px;
+    background-image: url('./search.svg');
+    background-size: 20px 20px;
+    background-position: 20px center;
+    background-repeat: no-repeat;
+}
+
+.add-button {
+    width: 20%;
+    background: linear-gradient(to top, #17acdb, #4ee5da);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 10px #4ee5da;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.course-entity {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.courseTitle {
+    width: 20%;
+}
+
+.courseDate {
+    width: 10%;
+}
+
+.courseDescription {
+    width: 35%;
+}
+
+.courseDuration {
+    width: 20%;
+}
+
+.content-wrapper {
+    background-color: #f0f0f4;
+    min-height: calc(100vh - 60px);
+}
+
+article {
+    padding: 40px 0;
+}
+
+.dots {
+    position: relative;
+    cursor: pointer;
+    color: #616060;
+}
+
+.dropdown {
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid #f0f0f4;
+    box-shadow: 0 0 10px #eeeef1;
+    border-radius: 10px;
+    list-style: none;
+    padding: 0 20px;
+    width: 170px;
+    z-index: 20;
+}
+
+li {
+    display: flex;
+    padding: 10px 0;
+}
+
+li::before {
+    display: inline-block;
+    content: ' ';
+    background-image: url('./edit.svg');
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+}
+
+li:nth-child(2)::before {
+    background-image: url('./delete.svg');
+}
+
+.dropdown::before {
+    border-bottom: 11px solid #dbdbdb;
+    border-left: 21px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: -11px;
+}
+
+.dropdown::after {
+    border-bottom: 11px solid white;
+    border-left: 21px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: -10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+form input, textarea {
+    padding: 15px 20px;
+    outline: none;
+    border: 2px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+form label {
+    margin: 40px 0 10px;
+}
+
+.secondary-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.secondary-info label{
+    width: 45%;
+    margin: 10px 0;
+}
+
+.secondary-info label input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.save, .cancel-button {
+    padding: 20px 40px;
+    width: 40%;
+}
+
+.cancel-button {
+    background: none;
+    color: #a1a1a1;
+    outline: 0;
+    border: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.buttons-section {
+    display: flex;
+    margin: 40px 0;
+}
+
+footer p {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
