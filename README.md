@@ -10,6 +10,6 @@ In the application you can view availible courses and stop procrastinating. Amai
 * Ability to edit courses
 * Ability to delete or create new courses.
 
-There's no db, but let's imagine this app is useful. At least you can create your own backend and sell the product. 
+There's no DB, but let's imagine this app is still useful. At least you can create your own backend and sell the finished product. 
 
 Have fun :)
