@@ -17,7 +17,8 @@ let initialState = {
     addForm: false,
     editForm: false,
     editIndex: null
-}
+};
+
 export default function rootReducer(state = initialState, action) {
     const copiedArray = [...state.courses.map(el => ({ ...el, dropdown: false }))];
     switch (action.type) {

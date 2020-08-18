@@ -68,19 +68,19 @@ header {
     justify-content: space-evenly;
 }
 
-.courseTitle {
+.course-title {
     width: 20%;
 }
 
-.courseDate {
+.course-date {
     width: 10%;
 }
 
-.courseDescription {
+.course-description {
     width: 35%;
 }
 
-.courseDuration {
+.course-duration {
     width: 20%;
 }
 

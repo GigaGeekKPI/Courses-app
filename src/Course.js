@@ -7,10 +7,10 @@ class Course extends React.Component {
         const { index } = this.props;
         return (
             <div className='course-entity'>
-                <p className='courseDate'>{date}</p>
-                <p className='courseTitle'><b>{name}</b></p>
-                <p className='courseDescription'>{description}</p>
-                <p className='courseDuration'>{duration}</p>
+                <p className='course-date'>{date}</p>
+                <p className='course-title'><b>{name}</b></p>
+                <p className='course-description'>{description}</p>
+                <p className='course-duration'>{duration}</p>
                 <Dropdown index={index} />
             </div>
         )

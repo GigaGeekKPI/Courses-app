@@ -5,8 +5,7 @@ import { ToggleMenuAction, DeleteCourseAction, ShowEditFormAction } from './acti
 class Dropdown extends React.Component {
 
     render() {
-        const { courses, ToggleMenu, DeleteCourse, ShowEditForm } = this.props;
-        const { index } = this.props;
+        const { courses, ToggleMenu, DeleteCourse, ShowEditForm, index } = this.props;
 
         const dropdown = (
             <ul className='dropdown'>
